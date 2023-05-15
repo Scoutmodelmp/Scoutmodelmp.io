@@ -1,0 +1,110 @@
+body, html {
+  height: 100%;
+  background: #252525;
+}
+
+
+/* Image Sizes for main pages */
+.vert {
+  height: 120%;
+  width: fit-content;
+  padding-bottom: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.horz
+{
+  height: auto;
+  width: 100%;
+  padding-bottom: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+/* Nav Bar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+
+/* Sticky Nav */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+/* Page Titles */
+.subheader {
+  font-family: Futura-Light;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 5px;
+  padding-top: 60px;
+  color: rgb(255, 255, 255);
+}
+
+
+/* Contact Page Buttons */
+.form-group {
+  color:rgb(0, 0, 0);
+  margin-left: 10px;
+  max-width: 1000px;
+}
+
+.btn .btn-primary {
+  margin-left: 10px;
+}
+
+
+/* Home Page Image Grid */
+.container{
+  margin-top: 10px;
+}
+
+.card{
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top {
+  display: inline;
+}
+
+.card-columns{
+  column-count: 2;
+}
